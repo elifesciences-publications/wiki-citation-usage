@@ -1,0 +1,5 @@
+is_proj_med	has_ext_links	distinct_pages
+true	true	32539
+true	false	6727
+false	true	5199010
+false	false	9282528

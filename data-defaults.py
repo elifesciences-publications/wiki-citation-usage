@@ -1,3 +1,10 @@
+###############################################################################
+## basic defaults, imports, etc. including: 
+## - study dates and date convenience methods
+## - common SQL exclusions
+## - parquet files for anonymized data
+###############################################################################
+
 ## basic setup
 # use PySpark YARN kernel
 import pyspark

@@ -1,10 +1,3 @@
-###############################################################################
-## basic defaults, imports, etc. including: 
-## - study dates and date convenience methods
-## - common SQL exclusions
-## - parquet files for anonymized data
-###############################################################################
-
 ## basic setup
 # use PySpark YARN kernel
 import pyspark
@@ -17,6 +10,7 @@ import hashlib
 import os.path
 from pyspark.sql.functions import desc
 from datetime import timedelta, date
+from IPython.display import display, Markdown
 
 spark_hive = pyspark.sql.HiveContext(sc)
 

@@ -35,12 +35,12 @@
  - [WPM Page Classes or Categories](notebooks/events-and-counts-and-pageviews--WPM-page-classes.ipynb)
 
 #### Exploratory
- - [tools.wmflabs.org Links](notebooks/exploratory--tools_dot_wmflabs_dot_org-links)
+ - [tools.wmflabs.org Links](notebooks/exploratory--tools_dot_wmflabs_dot_org-links.ipynb)
  - [NCBI and Freely Accessible Links](notebooks/exploratory--ncbi-and-free.ipynb)
  
  ## [SQL](sql)
 Queries that ran against the [production MediaWiki database](https://wikitech.wikimedia.org/wiki/Analytics/Data_access#MariaDB_replicas) during the study period. The [data](data) directory contains query output for 2019-04-01 and 2019-04-20.
-- [Wikipedia pages with external links](pages-with-extlinks.sql)
-- [Categories associated with WikiProject Medicine pages](wiki_proj_med_categorylinks.sql)
-- [WikiProject Medicine pages with external links](wiki_proj_med_pages-with-extlinks.sql)
+- [Wikipedia pages with external links](sql/pages-with-extlinks.sql)
+- [Categories associated with WikiProject Medicine pages](sql/wiki_proj_med_categorylinks.sql)
+- [WikiProject Medicine pages with external links](sql/wiki_proj_med_pages-with-extlinks.sql)
 

@@ -55,3 +55,10 @@ parquetFilePageloads = spark.read.parquet("/user/ryanmax/anonymous_pageloads_apr
 parquetFileCitationusage = spark.read.parquet("/user/ryanmax/anonymous_citationusage_april.parquet")
 parquetFilePageloads.createOrReplaceTempView("citationusagepageload")
 parquetFileCitationusage.createOrReplaceTempView("citationusage")
+
+#Extra libs and plotting
+sc.addPyFile("/home/piccardi/libs/seaborn-0.9.0-py3.5.egg")
+from matplotlib.pyplot import figure
+from matplotlib import pyplot
+import numpy as np
+import seaborn as sns

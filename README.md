@@ -20,6 +20,8 @@ Queries that ran against the [production MediaWiki database](https://wikitech.wi
 - [Categories associated with WikiProject Medicine pages](sql/wiki_proj_med_categorylinks.sql)
 - [WikiProject Medicine pages with external links](sql/wiki_proj_med_pages-with-extlinks.sql)
 
+***
+
 ## Other Notebooks
 #### Data Population
 - [Freely Accessible Links](https://nbviewer.jupyter.org/github/ryanmax/wiki-citation-usage/blob/master/notebooks/populate-freely_accessible-from-dumps.ipynb)

@@ -1,3 +1,4 @@
+### This code is associated with the paper from Maggio et al., "Reader engagement with medical content on Wikipedia". eLife, 2020. http://dx.doi.org/10.7554/eLife.52426
 # Data Analysis for [Wikipedia Citation Usage Project](https://meta.wikimedia.org/wiki/Research:Investigating_Wikipedia%27s_role_as_a_gateway_to_medical_content)
 
 ## [Notebooks](notebooks)
